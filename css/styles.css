@@ -1,3 +1,5 @@
+/* This stylesheet contains all the css of the landing page UI */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:400&display=swap');
 * {
 	margin: 0;
@@ -430,7 +432,7 @@ header {
 .product-title > h2 {
 	font-size: var(--h1-font-size);
 	color: #002791;
-	font-weight: 700;
+	font-weight: 600;
 }
 .product-title > h2::after {
 	content: '';
@@ -721,12 +723,6 @@ header {
 	width: 100%;
 	padding: 2rem;
 }
-/* .section-grid-5 {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 1.5em;
-	margin: 1.5rem auto;
-} */
 .footer-logo {
 	margin: 1rem auto;
 	display: flex;
