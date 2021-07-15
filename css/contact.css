@@ -227,7 +227,109 @@ header {
 	color: #fff;
 	font-size: var(--h4-font-size);
 }
-
+/* Contact section */
+.contact {
+	max-width: 100%;
+	background: #fff;
+	width: 100%;
+}
+.contact-container {
+	max-width: 1040px;
+	width: calc(100% - 2rem);
+	background: #00279107;
+	min-height: 400px;
+	padding: 3rem 3rem;
+	margin: 0 auto;
+}
+.contact-title {
+	padding: 1rem 0;
+}
+.contact-title > span {
+	font-size: var(--biggest-font-size);
+	font-weight: 600;
+	color: #002791;
+}
+.contact-description > p {
+	color: #3e3e3e;
+	font-size: var(--h4-font-size);
+	padding: 1rem 0;
+}
+.contact-info {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 3em;
+	width: 100%;
+	margin: 1rem 0;
+}
+.info-details {
+	width: 320px;
+	height: 100%;
+}
+.info-details > h2 {
+	color: #434343;
+	font-size: var(--h3-font-size);
+	padding: 0.5em 0;
+}
+.info-details > p {
+	color: #3e3e3e;
+	font-size: var(--h2-font-size);
+	padding-bottom: 2rem;
+}
+.info-details input[type='text'] {
+	padding: 1rem;
+	font-size: 17px;
+	border: 2px solid #c7c7c7f7;
+	border-radius: 5px;
+	width: 100%;
+}
+.info-details input:focus {
+	background: #fff;
+	outline: #c7c7c7f7;
+	color: #434343;
+	border: 2px solid #c7c7c7f7;
+}
+.info-details ::placeholder {
+	color: #434343;
+}
+.padding-text {
+	margin-top: 1.7rem;
+}
+.contact-message textarea {
+	max-width: 100%;
+	min-width: 100%;
+	padding: 1rem;
+	font-size: 17px;
+	border: 2px solid #c7c7c7f7;
+	border-radius: 5px;
+}
+.contact-message textarea:focus {
+	background: #fff;
+	outline: #c7c7c7f7;
+	color: #434343;
+	border: 2px solid #c7c7c7f7;
+}
+.showcase-actions {
+	padding: 2rem 0;
+}
+.showcase-actions .button {
+	background-color: #f68c1f;
+	border: 2px solid #f68c1f;
+	color: #fff;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.social-links > span {
+	color: #002791;
+	font-size: var(--h2-font-size);
+	font-weight: 600;
+}
 /* Footer section */
 .footer-container {
 	background: #002791;
