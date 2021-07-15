@@ -394,7 +394,7 @@ header {
 .started-title-content > h2 {
 	font-size: var(--h1-font-size);
 	color: #002791;
-	font-weight: 700;
+	font-weight: 600;
 }
 .started-title-content > h2::after {
 	content: '';
@@ -445,7 +445,67 @@ header {
 	background-color: #002791;
 	min-height: 350px;
 }
-
+.right-content-inner {
+	margin: 1rem 4rem;
+	padding: 2.5rem 0;
+	width: 308px;
+}
+.started-title-right {
+	padding: 1rem 0;
+}
+.started-title-right > span {
+	font-size: var(--h3-font-size);
+	color: #f68c1f;
+	text-transform: capitalize;
+}
+.started-title-right > h2 {
+	font-size: var(--h1-font-size);
+	font-weight: 600;
+	color: #fff;
+}
+.started-title-right > h2::after {
+	content: '';
+	display: block;
+	margin: 0;
+	width: 15%;
+	padding: 10px 0;
+	border-bottom: 3px solid #f68c1f;
+}
+.right-content-inner input[type='text'],
+.right-content-inner select {
+	margin: 0.5em 0px;
+	padding: 0.5rem;
+	font-size: 17px;
+	border: none;
+	border-radius: 2px;
+	line-height: 1;
+	width: 100%;
+}
+.right-content-inner input:focus,
+.right-content-inner select {
+	background: #fff;
+	outline: none;
+	color: #434343;
+	line-height: 1;
+	border: none;
+}
+.right-content-inner ::placeholder {
+	color: #434343;
+}
+.showcase-actions .button-1 {
+	background-color: #f68c1f;
+	border: 2px solid #f68c1f;
+	color: #fff;
+	padding: 15px 38px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
 /* Our Team container */
 .team-container {
 	background: #fff;
