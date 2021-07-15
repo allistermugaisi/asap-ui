@@ -298,7 +298,6 @@ header {
 }
 .description-1 > p {
 	font-size: var(--h4-font-size);
-	font-weight: 600;
 	color: #3e3e3e;
 }
 .details-img > img {
@@ -310,7 +309,6 @@ header {
 }
 .description-2 > p {
 	font-size: var(--h4-font-size);
-	font-weight: 600;
 	color: #3e3e3e;
 }
 .description-3 {
@@ -318,7 +316,6 @@ header {
 }
 .description-3 > p {
 	font-size: var(--h4-font-size);
-	font-weight: 600;
 	color: #3e3e3e;
 }
 .showcase-actions {

@@ -228,6 +228,123 @@ header {
 	font-size: var(--h4-font-size);
 }
 
+/* Coverage section */
+/* Service Details section */
+.service-details {
+	max-width: 100%;
+	background: #fff;
+	min-height: 400px;
+	width: 100%;
+}
+.details-container {
+	max-width: 1040px;
+	width: calc(100% - 2rem);
+	padding: var(--padding-about) 0;
+	margin: 1.5rem auto;
+}
+.details-grid {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 5rem;
+}
+.left-title {
+	padding: 1rem;
+	background-color: #f68c1f;
+}
+.left-title > span {
+	font-size: var(--h4-font-size);
+	font-weight: 600;
+	color: #fff;
+}
+.left-description {
+	padding: 1rem;
+	line-height: 3.2;
+}
+.left-description > p {
+	font-size: var(--h4-font-size);
+	font-weight: 600;
+	color: #3e3e3e;
+}
+.left-download {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.left-download > p {
+	color: #3e3e3e;
+	font-size: var(--h4-font-size);
+	font-weight: 600;
+}
+.left-greetings {
+	background: #002791;
+	margin: 1rem 0;
+	padding: 1.5rem 0;
+}
+.left-greetings > h2 {
+	color: #fff;
+	padding: 0 2rem;
+}
+.right-details {
+	min-height: 400px;
+}
+.right-title {
+	color: #002791;
+}
+.right-title > span {
+	font-size: var(--biggest-font-size);
+	font-weight: 600;
+	color: #002791;
+}
+.description-1 {
+	padding: 1rem 0;
+}
+.description-1 > p {
+	font-size: var(--h4-font-size);
+	color: #3e3e3e;
+}
+.details-img > img {
+	width: 633px;
+	height: 290px;
+}
+.description-2 {
+	padding: 1rem 0;
+}
+.description-2 > ul {
+	color: #f68c1f;
+	margin: 0 5rem;
+	line-height: 1.6;
+}
+.description-2 > ul li {
+	font-size: var(--h4-font-size);
+	color: #3e3e3e;
+}
+.description-2 > ul li::before {
+	content: '\2022';
+	color: #f68c1f;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+.showcase-actions {
+	margin-top: 1rem;
+	padding: 0 2rem;
+}
+.showcase-actions .button {
+	background-color: #f68c1f;
+	border: 2px solid #f68c1f;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+
 /* Footer section */
 .footer-container {
 	background: #002791;
