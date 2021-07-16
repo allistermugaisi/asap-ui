@@ -953,15 +953,15 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .blog-card {
 	position: relative;
-	padding: 1rem;
+	padding: 2.5rem;
 	width: 352px;
-	height: 495px;
+	height: 555px;
 	border-radius: 7px;
 	background: #fff;
 }
 .img-div img {
 	height: 200px;
-	width: 321px;
+	width: 270px;
 }
 .card-grid {
 	display: grid;
@@ -1008,6 +1008,9 @@ nav .navbar .links li:hover .js-sub-menu {
 .blog-date > span:nth-child(2) {
 	font-size: 12px;
 	color: #fff;
+}
+.blog-card .flex-link {
+	padding-bottom: 4rem;
 }
 
 /* Footer section */
