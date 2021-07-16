@@ -20,13 +20,30 @@
 						<img src="./images/AsapInfo.Logo.png" alt="logo" />
 					</div>
 					<div class="nav-links">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="coverage.html">Our Coverage</a></li>
-							<li><a href="services.html">Services</a></li>
-							<li><a href="blog.html">Blog</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+						<ul class="links">
+							<li><a class="link" href="index.html">Home</a></li>
+							<li><a class="link" href="about.html">About Us</a></li>
+							<li><a class="link" href="coverage.html">Our Coverage</a></li>
+							<li class="dropdown">
+								<a href="#" id="services">Services</a>
+								<i className="bx bxs-chevron-down js-arrow arrow"></i>
+								<ul className="js-sub-menu" id="sub-menu">
+									<li>
+										<a href="services.html">Service 1</a>
+									</li>
+									<li>
+										<a href="services.html">Service 2</a>
+									</li>
+									<li>
+										<a href="services.html">Service 3</a>
+									</li>
+									<li>
+										<a href="services.html"> Service 4 </a>
+									</li>
+								</ul>
+							</li>
+							<li><a class="link" href="blog.html">Blog</a></li>
+							<li><a class="link" href="contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 					<div class="nav-actions">
@@ -447,7 +464,17 @@
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div>
-				<div class="footer-icons"></div>
+				<div class="footer-icons">
+					<div class="footer-img">
+						<img src="./images/facebook-white.png" alt="icon" />
+					</div>
+					<div class="footer-img">
+						<img src="./images/twitter-white.png" alt="icon" />
+					</div>
+					<div class="footer-img">
+						<img src="./images/instagram-white.png" alt="icon" />
+					</div>
+				</div>
 				<div class="footer-copyright">
 					<p>&copy; 2021</p>
 					<p>All rights reserved</p>

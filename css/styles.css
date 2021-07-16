@@ -114,10 +114,10 @@ header {
 	display: flex;
 	align-items: center;
 }
-.navbar ul {
+.navbar .links {
 	display: flex;
 }
-.navbar a {
+.navbar .link {
 	color: #fff;
 	padding: 10px;
 	margin: 0 5px;
@@ -127,6 +127,83 @@ header {
 }
 .navbar a:hover {
 	color: #f68c1f;
+}
+/* .links li:hover .htmlcss-arrow,
+.links li:hover .js-arrow {
+	transform: rotate(180deg);
+} */
+.dropdown {
+	position: relative;
+}
+.dropdown .arrow {
+	height: 100%;
+	width: 22px;
+	line-height: 70px;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+#services {
+	display: block;
+	color: #fff;
+	margin: 0 5px;
+	font-size: 18px;
+	font-weight: 550;
+	transition: 0.5s ease;
+}
+#services:hover {
+	display: block;
+	color: #f68c1f;
+}
+#sub-menu {
+	position: absolute;
+	/* top: 85px; */
+	left: 0;
+	line-height: 30px;
+	padding: 1rem;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 4px 4px;
+	display: none;
+	z-index: 2;
+}
+
+#sub-menu a {
+	color: #f68c1f;
+}
+.dropdown:hover .js-sub-menu {
+	display: block;
+}
+.navbar .links li:hover .htmlCss-sub-menu,
+.navbar .links li:hover .js-sub-menu {
+	display: block;
+}
+.navbar .links li .sub-menu li {
+	padding: 0 22px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.navbar .links li .sub-menu a {
+	/* color: #fff; */
+	font-size: 15px;
+	font-weight: 500;
+}
+.navbar .links li .sub-menu .more-arrow {
+	line-height: 40px;
+}
+/* .navbar .links li .htmlCss-more-sub-menu {
+	line-height: 40px;
+} */
+.navbar .links li .sub-menu .more-sub-menu {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	border-radius: 0 4px 4px 4px;
+	z-index: 1;
+	display: none;
+}
+.links li .sub-menu .more:hover .more-sub-menu {
+	display: block;
 }
 .navbar .button {
 	background-color: #f68c1f;
@@ -780,6 +857,18 @@ header {
 }
 .footer-links ul li a:hover {
 	color: #f68c1f;
+}
+.footer-icons {
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+}
+.footer-img img {
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
 }
 .footer-copyright {
 	display: flex;
