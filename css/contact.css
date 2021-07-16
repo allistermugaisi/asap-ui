@@ -121,7 +121,7 @@ a {
 	text-decoration: none;
 }
 header {
-	min-height: var(--min-height);
+	height: 620px;
 	position: relative;
 	background-size: cover;
 	background-position: center;

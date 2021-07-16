@@ -121,7 +121,7 @@ a {
 	text-decoration: none;
 }
 header {
-	min-height: var(--min-height);
+	height: 620px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -160,11 +160,11 @@ header {
 	background-color: #f68c1f;
 	border: 2px solid #f68c1f;
 	color: #fff;
-	padding: 15px 32px;
+	padding: 15px 25px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	border-radius: 30px;
 	cursor: pointer;
@@ -174,11 +174,11 @@ header {
 	background-color: transparent;
 	border: 2px solid #fff;
 	color: #fff;
-	padding: 15px 32px;
+	padding: 15px 25px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 600;
 	border-radius: 30px;
 	cursor: pointer;
@@ -284,11 +284,18 @@ header {
 }
 .about-description-content > p {
 	font-size: var(--h4-font-size);
+	color: #3e3e3e;
 }
 .about-brief-info {
 	height: 100%;
 	width: 100%;
 	line-height: 2;
+	display: flex;
+	align-items: center;
+}
+.about-brief-info img {
+	width: 21px;
+	height: 21px;
 }
 .about-brief-info > i {
 	font-size: var(--h4-font-size);
@@ -296,6 +303,7 @@ header {
 .about-brief-info > span {
 	font-size: var(--h4-font-size);
 	margin-left: 0.5rem;
+	color: #3e3e3e;
 }
 .about-content-right > img {
 	width: 100%;
@@ -351,8 +359,6 @@ header {
 	height: 305px;
 	border-radius: 7px;
 	background: #fff;
-	box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-		0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
 }
 .mission-card > h3 {
 	font-size: var(--h4-font-size);
@@ -556,8 +562,6 @@ header {
 	min-height: 350px;
 	border-radius: 7px;
 	background: #fff;
-	box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
-		0px 2px 5px 0px rgba(50, 50, 93, 0.1), 0px 1px 1.5px 0px rgba(0, 0, 0, 0.07);
 }
 .img-div img {
 	width: 222px;
@@ -578,7 +582,16 @@ header {
 	font-weight: 600;
 	color: #3e3e3e;
 }
-
+.team-icons {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.team-img img {
+	width: 21px;
+	height: 21px;
+}
 /* Footer section */
 .footer-container {
 	background: #002791;
