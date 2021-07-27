@@ -1002,7 +1002,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	}
 	.section-grid-2 {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: auto;
 		justify-content: center;
 		align-content: center;
 		gap: 1em;
