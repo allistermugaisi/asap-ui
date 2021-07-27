@@ -1147,6 +1147,22 @@ nav .navbar .links li:hover .js-sub-menu {
 		border-radius: 30px;
 		cursor: pointer;
 	}
+	.section-grid-3 {
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: center;
+		align-content: center;
+		gap: 3em;
+		margin: 2rem auto;
+	}
+	.section-grid-4 {
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: center;
+		align-content: center;
+		gap: 3em;
+		margin: 2rem auto;
+	}
 	.footer-links ul {
 		display: flex;
 		flex-direction: column;
@@ -1211,7 +1227,7 @@ nav .navbar .links li:hover .js-sub-menu {
 		max-width: 50%;
 	}
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 576px) and (max-width: 1024px) {
 	.section-grid-1 {
 		display: grid;
 		grid-template-columns: auto;
@@ -1243,7 +1259,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	}
 	.section-grid-3 {
 		display: grid;
-		grid-template-columns: auto;
+		grid-template-columns: repeat(2, 1fr);
 		justify-content: center;
 		align-content: center;
 		gap: 3em;
@@ -1251,7 +1267,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	}
 	.section-grid-4 {
 		display: grid;
-		grid-template-columns: auto;
+		grid-template-columns: repeat(2, 1fr);
 		justify-content: center;
 		align-content: center;
 		gap: 3em;
