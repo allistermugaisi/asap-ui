@@ -803,7 +803,16 @@ nav .navbar .links li:hover .js-sub-menu {
 		border-radius: 30px;
 		cursor: pointer;
 	}
-
+	.blog-date {
+		position: absolute;
+		top: -65%;
+		right: 3rem;
+		width: 13%;
+		height: 120%;
+		background-color: #002791;
+		text-align: center;
+		padding: 5px;
+	}
 	.footer-links ul {
 		display: flex;
 		flex-direction: column;

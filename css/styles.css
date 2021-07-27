@@ -1147,6 +1147,15 @@ nav .navbar .links li:hover .js-sub-menu {
 		border-radius: 30px;
 		cursor: pointer;
 	}
+	.blog-date {
+		position: absolute;
+		top: 36%;
+		right: 4rem;
+		width: 16%;
+		background-color: #002791;
+		text-align: center;
+		padding: 5px;
+	}
 	.section-grid-3 {
 		display: grid;
 		grid-template-columns: auto;
