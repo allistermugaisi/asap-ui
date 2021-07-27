@@ -125,7 +125,7 @@ header {
 	position: relative;
 	background-size: cover;
 	background-position: center;
-	background-image: url('/images/service.jpg');
+	background-image: url('https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396925/service_cp1hbh.jpg');
 }
 /* Start of Navbar */
 nav {
