@@ -805,9 +805,9 @@ nav .navbar .links li:hover .js-sub-menu {
 	}
 	.blog-date {
 		position: absolute;
-		top: -65%;
+		top: -68%;
 		right: 3rem;
-		width: 13%;
+		width: 16%;
 		height: 120%;
 		background-color: #002791;
 		text-align: center;
