@@ -527,6 +527,14 @@ nav .navbar .links li:hover .js-sub-menu {
 	font-size: var(--h3-font-size);
 	color: #f68c1f;
 }
+.about-title::after {
+	content: '';
+	display: block;
+	margin: 0;
+	width: 15%;
+	padding-top: 20px;
+	border-bottom: 3px solid #f68c1f;
+}
 .right-about {
 	width: 100%;
 	height: 100%;
@@ -672,6 +680,17 @@ nav .navbar .links li:hover .js-sub-menu {
 	margin-left: 0.5rem;
 	color: #3e3e3e;
 }
+.about-link > a {
+	color: #f68c1f;
+}
+.about-link::after {
+	content: '';
+	display: block;
+	margin: -1.8rem 6rem;
+	width: 8%;
+	padding-top: 20px;
+	border-bottom: 2px solid #f68c1f;
+}
 
 /* Products section */
 .product-container {
@@ -697,13 +716,13 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 600;
 }
-.product-title > h2::after {
+.product-title-1::after {
 	content: '';
 	display: block;
 	margin: 0 auto;
-	width: 15%;
+	width: 23%;
 	padding-top: 20px;
-	border-bottom: 4px solid #f68c1f;
+	border-bottom: 3px solid #f68c1f;
 }
 .section-grid-3 {
 	display: grid;
@@ -769,13 +788,13 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 700;
 }
-.testimonial-title > h2::after {
+.testimonial-title-1::after {
 	content: '';
 	display: block;
 	margin: 0 auto;
-	width: 15%;
+	width: 23%;
 	padding-top: 20px;
-	border-bottom: 4px solid #f68c1f;
+	border-bottom: 3px solid #f68c1f;
 }
 .testimonial-card {
 	position: relative;
@@ -914,13 +933,13 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 700;
 }
-.blog-title > h2::after {
+.blog-title-1::after {
 	content: '';
 	display: block;
 	margin: 0 auto;
-	width: 15%;
+	width: 20%;
 	padding-top: 20px;
-	border-bottom: 4px solid #f68c1f;
+	border-bottom: 3px solid #f68c1f;
 }
 .section-grid-4 {
 	display: grid;
@@ -972,7 +991,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .blog-date {
 	position: absolute;
 	top: 38%;
-	right: 3rem;
+	right: 4rem;
 	width: 16%;
 	background-color: #002791;
 	text-align: center;

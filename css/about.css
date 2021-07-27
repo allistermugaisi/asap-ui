@@ -121,7 +121,7 @@ a {
 	text-decoration: none;
 }
 header {
-	height: 620px;
+	height: 446px;
 	position: relative;
 	background-size: cover;
 	background-position: center;
@@ -212,7 +212,7 @@ nav .navbar .links li .sub-menu {
 	top: 60px;
 	left: 0;
 	line-height: 40px;
-	background: #f68c1f;
+	background: #002791;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 0 0 4px 4px;
 	display: none;
@@ -232,7 +232,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	font-weight: 500;
 }
 .navbar .links li .sub-menu a:hover {
-	color: #fff;
+	color: #f68c1f;
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -277,7 +277,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	top: 80px;
 	height: 60px;
 	width: 300px;
-	background: #f68c1f;
+	background: #002791;
 	border-radius: 6px;
 	opacity: 0;
 	pointer-events: none;
@@ -287,14 +287,14 @@ nav .navbar .links li:hover .js-sub-menu {
 	top: 65px;
 	opacity: 1;
 	pointer-events: auto;
-	background: #f68c1f;
+	background: #002791;
 }
 .search-box .input-box::before {
 	content: '';
 	position: absolute;
 	height: 20px;
 	width: 20px;
-	background: #f68c1f;
+	background: #002791;
 	right: 10px;
 	top: -6px;
 	transform: rotate(45deg);
@@ -472,6 +472,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	}
 }
 /* End of Navbar */
+
 /* Showcase about */
 .showcase {
 	display: flex;
@@ -526,11 +527,10 @@ nav .navbar .links li:hover .js-sub-menu {
 	content: '';
 	display: block;
 	margin: 0;
-	width: 8%;
+	width: 10%;
 	padding: 10px 0;
 	border-bottom: 3px solid #f68c1f;
 }
-
 .about-title-brief {
 	margin: 1rem 0;
 	padding: 1rem 0;
@@ -539,6 +539,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .about-title-brief > span {
 	font-size: var(--h2-font-size);
 	font-weight: 600;
+	color: #3e3e3e;
 }
 .about-description-content {
 	width: 90%;
@@ -596,13 +597,13 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 700;
 }
-.mission-title > h2::after {
+.mission-title-1::after {
 	content: '';
 	display: block;
 	margin: 0 auto;
-	width: 18%;
+	width: 23%;
 	padding-top: 20px;
-	border-bottom: 4px solid #f68c1f;
+	border-bottom: 3px solid #f68c1f;
 }
 .section-grid-1 {
 	display: grid;
@@ -664,11 +665,11 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 600;
 }
-.started-title-content > h2::after {
+.started-title-1::after {
 	content: '';
 	display: block;
 	margin: 0;
-	width: 8%;
+	width: 10%;
 	padding: 10px 0;
 	border-bottom: 3px solid #f68c1f;
 }
@@ -809,13 +810,13 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #002791;
 	font-weight: 700;
 }
-.team-title > h2::after {
+.team-title-45::after {
 	content: '';
 	display: block;
 	margin: 0 auto;
-	width: 18%;
+	width: 13%;
 	padding-top: 20px;
-	border-bottom: 4px solid #f68c1f;
+	border-bottom: 3px solid #f68c1f;
 }
 .team-card {
 	position: relative;
