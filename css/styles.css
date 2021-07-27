@@ -504,7 +504,6 @@ nav .navbar .links li:hover .js-sub-menu {
 .section-container {
 	max-width: 1040px;
 	width: calc(100% - 2rem);
-	padding: 3rem 0;
 	margin-left: var(--mb-2);
 	margin-right: var(--mb-2);
 }
@@ -512,7 +511,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	gap: 1.5rem;
-	min-height: 550px;
+	min-height: 450px;
 	margin: 5rem auto 0 auto;
 }
 .left-about {
@@ -562,7 +561,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .section-container-1 {
 	max-width: 100%;
 	background: #002791;
-	height: 588px;
+	min-height: 588px;
 	width: 100%;
 }
 .left-service {
@@ -603,21 +602,20 @@ nav .navbar .links li:hover .js-sub-menu {
 	margin-left: 0.8rem;
 }
 .service-img {
-	width: 533px;
+	width: 100%;
 	height: 588px;
 }
 .service-img > img {
-	margin-top: -3rem;
 	width: 100%;
 	height: 100%;
 }
 
 /* features section */
-.section-title::after {
+.service-title::after {
 	content: '';
 	display: block;
 	margin: 0;
-	width: 15%;
+	width: 10%;
 	padding-top: 20px;
 	border-bottom: 3px solid #f68c1f;
 }
@@ -630,12 +628,12 @@ nav .navbar .links li:hover .js-sub-menu {
 .section-container-2 {
 	max-width: 100%;
 	background: #fff;
-	height: 550px;
+	min-height: 550px;
 	width: 100%;
 }
 .service-img-1 img {
-	width: 461px;
-	height: 432px;
+	width: 100%;
+	height: 100%;
 }
 .right-service-2 {
 	padding: 3rem 0;
@@ -650,7 +648,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #f68c1f;
 	text-transform: capitalize;
 }
-.section-title::after {
+.choose-title::after {
 	content: '';
 	display: block;
 	margin: 0;
@@ -1156,6 +1154,14 @@ nav .navbar .links li:hover .js-sub-menu {
 		text-align: center;
 		padding: 5px;
 	}
+	.section-grid-2 {
+		display: grid;
+		grid-template-columns: auto;
+		justify-content: center;
+		align-items: center;
+		gap: 3em;
+		margin: 2rem auto;
+	}
 	.section-grid-3 {
 		display: grid;
 		grid-template-columns: auto;
@@ -1245,24 +1251,11 @@ nav .navbar .links li:hover .js-sub-menu {
 		gap: 1.5rem;
 		margin: 0 auto;
 	}
-	.right-service {
-		width: 100%;
-		height: 100%;
-	}
-	.service-img {
-		width: 100%;
-		height: 100%;
-	}
-	.service-img > img {
-		margin-top: -3rem;
-		width: 100%;
-		height: 100%;
-	}
 	.section-grid-2 {
 		display: grid;
 		grid-template-columns: auto;
 		justify-content: center;
-		align-content: center;
+		align-items: center;
 		gap: 3em;
 		margin: 2rem auto;
 	}
