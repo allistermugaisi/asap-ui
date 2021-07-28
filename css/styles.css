@@ -511,8 +511,8 @@ nav .navbar .links li:hover .js-sub-menu {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	gap: 1.5rem;
-	min-height: 450px;
-	margin: 5rem auto 0 auto;
+	min-height: 500px;
+	margin: 3.5rem auto;
 }
 .left-about {
 	margin: 2.5rem 0;
