@@ -213,7 +213,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	line-height: 40px;
+	line-height: 38px;
 	text-align: center;
 	font-size: 22px;
 	color: #fff;
@@ -263,7 +263,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	border: none;
 }
 .navbar .action-links {
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 .navbar .button {
 	background-color: #f68c1f;
@@ -510,12 +510,12 @@ nav .navbar .links li:hover .js-sub-menu {
 .section-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	align-items: center;
 	gap: 1.5rem;
 	min-height: 500px;
-	margin: 3.5rem auto;
+	margin: 0 auto;
 }
 .left-about {
-	margin: 2.5rem 0;
 	width: 60%;
 }
 .left-about > h2 {
@@ -536,7 +536,6 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .right-about {
 	width: 100%;
-	height: 100%;
 }
 .right-about > p:nth-child(1) {
 	font-size: var(--h4-font-size);
@@ -736,8 +735,8 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .product-card {
 	padding: 2.5rem;
-	width: 342px;
-	height: 305px;
+	min-width: 342px;
+	min-height: 305px;
 	border-radius: 7px;
 	background: #fff;
 }
@@ -797,8 +796,8 @@ nav .navbar .links li:hover .js-sub-menu {
 .testimonial-card {
 	position: relative;
 	padding: 3rem;
-	width: 342px;
-	height: 285px;
+	min-width: 342px;
+	min-height: 285px;
 	border-radius: 7px;
 	background: #fff;
 	box-shadow: 1px 3px 14px #00279108;
@@ -947,15 +946,15 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .blog-card {
 	position: relative;
-	padding: 2.5rem;
-	width: 352px;
-	height: 555px;
+	padding: 1.5rem;
+	min-width: 352px;
+	min-height: 555px;
 	border-radius: 7px;
 	background: #fff;
 }
 .img-div img {
-	height: 200px;
-	width: 270px;
+	height: 225px;
+	width: 100%;
 }
 .card-grid {
 	display: grid;
@@ -989,7 +988,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .blog-date {
 	position: absolute;
 	top: 38%;
-	right: 4rem;
+	right: 3rem;
 	width: 16%;
 	background-color: #002791;
 	text-align: center;
