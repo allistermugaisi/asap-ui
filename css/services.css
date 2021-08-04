@@ -263,7 +263,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	line-height: 40px;
+	line-height: 38px;
 	text-align: center;
 	font-size: 22px;
 	color: #fff;
@@ -313,7 +313,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	border: none;
 }
 .navbar .action-links {
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 .navbar .button {
 	background-color: #f68c1f;
@@ -538,8 +538,8 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .services-card {
 	padding: 3rem;
-	width: 342px;
-	height: 305px;
+	min-width: 342px;
+	min-height: 305px;
 	border-radius: 7px;
 	background: #fff;
 	box-shadow: 1px 3px 14px #00279108;

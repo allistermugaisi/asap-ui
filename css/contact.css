@@ -263,7 +263,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	line-height: 40px;
+	line-height: 38px;
 	text-align: center;
 	font-size: 22px;
 	color: #fff;
@@ -313,7 +313,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	border: none;
 }
 .navbar .action-links {
-	padding-top: 2rem;
+	padding-top: 1.5rem;
 }
 .navbar .button {
 	background-color: #f68c1f;
