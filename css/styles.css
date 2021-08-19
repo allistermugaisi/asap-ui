@@ -51,19 +51,6 @@
 	--z-tooltip: 99;
 	--z-fixed: 100;
 }
-@media screen and (min-width: 768px) {
-	:root {
-		--biggest-font-size: 3rem;
-		--h1-font-size: 2.25rem;
-		--h2-font-size: 1.5rem;
-		--h3-font-size: 1.25rem;
-		--h4-font-size: 1.15rem;
-		--padding-about: 2rem;
-		--normal-font-size: 1rem;
-		--small-font-size: 0.875rem;
-		--smaller-font-size: 0.813rem;
-	}
-}
 ul {
 	list-style-type: none;
 }
@@ -329,7 +316,7 @@ nav .navbar .links li:hover .js-sub-menu {
 		top: 0;
 		left: -100%;
 		display: block;
-		max-width: 270px;
+		max-width: 100%;
 		width: 100%;
 		background-color: #002791;
 		line-height: 40px;
@@ -390,10 +377,10 @@ nav .navbar .links li:hover .js-sub-menu {
 		display: none;
 	}
 	.navbar .links li .sub-menu .more span {
-		/* background: red; */
+		background: red;
 		display: flex;
 		align-items: center;
-		/* justify-content: space-between; */
+		justify-content: space-between;
 	}
 
 	.links li .sub-menu .more:hover .more-sub-menu {
@@ -806,7 +793,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	position: relative;
 	padding: 3rem;
 	width: 342px;
-	height: 285px;
+	min-height: 295px;
 	border-radius: 7px;
 	background-color: #002791;
 	box-shadow: 0px 0px 0px 0.5px rgba(50, 50, 93, 0.1),
@@ -946,7 +933,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .blog-card {
 	position: relative;
-	padding: 1.5rem;
+	padding: 1rem;
 	min-width: 352px;
 	min-height: 555px;
 	border-radius: 7px;

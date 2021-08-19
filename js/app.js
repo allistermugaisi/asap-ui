@@ -28,11 +28,44 @@ let htmlcssArrow = document.querySelector('.htmlcss-arrow');
 htmlcssArrow.onclick = function () {
 	navLinks.classList.toggle('show1');
 };
-// let moreArrow = document.querySelector('.more-arrow');
-// moreArrow.onclick = function () {
-// 	navLinks.classList.toggle('show2');
-// };
-// let jsArrow = document.querySelector('.js-arrow');
-// jsArrow.onclick = function () {
-// 	navLinks.classList.toggle('show3');
-// };
+
+let moreArrow = document.querySelectorAll('.more-arrow');
+
+for (i = 0; i < moreArrow.length; i++) {
+	moreArrow[i].onclick = function () {
+		navLinks.classList.toggle('show2');
+	};
+}
+
+let jsArrow = document.querySelector('.js-arrow');
+jsArrow.onclick = function () {
+	navLinks.classList.toggle('show3');
+};
+
+let slideIndex = 0;
+// showSlides();
+
+function showSlides() {
+	let i;
+	let slides = document.getElementsByClassName('testimonial-card-responsive');
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = 'none';
+	}
+	slideIndex++;
+	if (slideIndex > slides.length) {
+		slideIndex = 1;
+	}
+	slides[slideIndex - 1].style.display = 'block';
+	setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+function myFunction(x) {
+	if (x.matches) {
+		// If media query matches
+		showSlides();
+	}
+}
+
+var x = window.matchMedia('(max-width: 576px)');
+myFunction(x); // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
