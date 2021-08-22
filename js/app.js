@@ -43,7 +43,6 @@ jsArrow.onclick = function () {
 };
 
 let slideIndex = 0;
-// showSlides();
 
 function showSlides() {
 	let i;
@@ -66,6 +65,23 @@ function myFunction(x) {
 	}
 }
 
-var x = window.matchMedia('(max-width: 576px)');
+let x = window.matchMedia('(max-width: 576px)');
 myFunction(x); // Call listener function at run time
 x.addListener(myFunction); // Attach listener function on state changes
+
+function productTabs(event, tabName) {
+	let evt = event;
+	let i, x, tablinks;
+	x = document.getElementsByClassName('product-tab');
+
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = 'none';
+	}
+
+	tablinks = document.getElementsByClassName('tablink');
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(' w3-red', '');
+	}
+	document.getElementById(tabName).style.display = 'block';
+	evt.currentTarget.className += ' w3-red';
+}

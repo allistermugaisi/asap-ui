@@ -26,7 +26,7 @@
 
 	/*========== Font and typography ==========*/
 	--body-font: 'Poppins', sans-serif;
-	--biggest-font-size: 2.25rem;
+	--biggest-font-size: 1.925rem;
 	--h1-font-size: 1.5rem;
 	--h2-font-size: 1.25rem;
 	--h3-font-size: 1rem;
@@ -377,7 +377,7 @@ nav .navbar .links li:hover .js-sub-menu {
 		display: none;
 	}
 	.navbar .links li .sub-menu .more span {
-		background: red;
+		/* background: red; */
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -428,7 +428,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	overflow-wrap: break-word;
 }
 .showcase-header h2 {
-	font-size: 2.5rem;
+	font-size: var(--biggest-font-size);
 	font-weight: 900;
 }
 .showcase-description {
@@ -491,10 +491,8 @@ nav .navbar .links li:hover .js-sub-menu {
 .section-container {
 	max-width: 1040px;
 	width: calc(100% - 2rem);
-	margin-left: var(--mb-2);
-	margin-right: var(--mb-2);
 }
-.section-grid {
+.section-grid-about {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 	align-items: center;
@@ -503,6 +501,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	margin: 0 auto;
 }
 .left-about {
+	margin-top: -5rem;
 	width: 60%;
 }
 .left-about > h2 {
@@ -522,6 +521,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	border-bottom: 3px solid #f68c1f;
 }
 .right-about {
+	margin-top: -8rem;
 	width: 100%;
 }
 .right-about > p:nth-child(1) {
