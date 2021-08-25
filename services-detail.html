@@ -18,11 +18,17 @@
 				<div class="navbar">
 					<i class="bx bx-menu"></i>
 					<div class="logo">
-						<img src="./images/AsapInfo.Logo.png" alt="logo" />
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396911/AsapInfo.Logo_gpldei.png"
+							alt="logo"
+						/>
 					</div>
 					<div class="nav-links">
 						<div class="sidebar-logo">
-							<img src="./images/AsapInfo.Logo.png" alt="logo" />
+							<img
+								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396911/AsapInfo.Logo_gpldei.png"
+								alt="logo"
+							/>
 							<i class="bx bx-x"></i>
 						</div>
 						<ul class="links">
@@ -34,17 +40,39 @@
 								<a href="coverage.html">Our Coverage</a>
 							</li>
 							<li>
-								<a href="services.html">Services</a>
+								<a href="#">Solution</a>
 								<i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
 								<ul class="htmlCss-sub-menu sub-menu">
-									<li><a href="#">Business Intelligence</a></li>
-									<li><a href="#">Data Analytic</a></li>
-									<li><a href="#">Due Diligence</a></li>
-									<li><a href="#">Risk Management</a></li>
-									<li><a href="#">Screen & Background Checks</a></li>
+									<li class="more">
+										<a href="products.html">Products</a>
+										<span>
+											<i class="bx bxs-chevron-right arrow more-arrow"></i>
+										</span>
+										<ul class="more-sub-menu sub-menu">
+											<li>
+												<a href="#">Asap Intell MSME platform</a>
+											</li>
+											<li>
+												<a href="#">Asap market intel platform</a>
+											</li>
+										</ul>
+									</li>
+									<li class="more">
+										<a href="services-detail.html">Services</a>
+										<span>
+											<i class="bx bxs-chevron-right arrow more-arrow"></i>
+										</span>
+										<ul class="more-sub-menu sub-menu">
+											<li>
+												<a href="#">Africa Corporate Credit Risk Solutions</a>
+											</li>
+											<li>
+												<a href="#">Due diligence services</a>
+											</li>
+										</ul>
+									</li>
 								</ul>
 							</li>
-							<li><a href="products.html">Products</a></li>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
@@ -62,6 +90,8 @@
 					</div>
 				</div>
 			</nav>
+			<!-- End of Navbar -->
+
 			<div class="showcase">
 				<h2>Service details</h2>
 				<p>Home / Services details</p>
@@ -72,15 +102,17 @@
 		<section class="service-details">
 			<div class="details-container details-grid">
 				<div class="left-details">
-					<div class="left-title">
-						<span>Due diligence services</span>
-						<img src="./images/right-arrow.svg" alt="arrow" />
+					<div class="left-title tablink" onclick="productTabs(event,'p1')">
+						<span>Africa corporate credit risk solutions</span>
+						<img src="./images/right-chevron.svg" alt="arrow" />
 					</div>
-					<div class="left-description">
-						<p>Africa corporate credit risk solutions</p>
+					<div class="left-title tablink" onclick="productTabs(event,'p2')">
+						<span>Due diligence services</span>
+						<img src="./images/right-chevron.svg" alt="arrow" />
 					</div>
 					<div class="left-download">
 						<p>Download Brochure</p>
+						<img src="./images/download.svg" alt="download" />
 					</div>
 					<div class="left-greetings">
 						<h2>Are You Ready New Project?</h2>
@@ -90,45 +122,117 @@
 					</div>
 				</div>
 				<div class="right-details">
-					<div class="right-title">
-						<span>Due Diligence Services</span>
+					<div class="product-tab" id="p1" style="display: block">
+						<div class="right-title">
+							<span>Africa Corporate Credit Risk Solutions</span>
+						</div>
+						<div class="description-1">
+							<p>
+								We source, verify corporate information from Africa for better
+								informed business credit decisions.
+							</p>
+						</div>
+						<div class="details-img">
+							<img
+								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396925/service-details_pr8p8h.png"
+								alt="service-details-img"
+							/>
+						</div>
+						<div class="description-3">
+							<p>
+								With our company Information sourcing in Africa, we can be able
+								to help in onboarding or reviewing existing vendors with our
+								premier analytics tools which assesses the probability of
+								business failure and creditworthiness of businesses through
+								comprehensive Credit Scoring and Ratings and provides the
+								resultant information reports to trade credit suppliers to
+								enable them make sound business decisions on their customers,
+								suppliers, investment opportunities and partnership.
+							</p>
+							<p>
+								Our company information data sourcing ensures Higher data
+								integrity.
+							</p>
+						</div>
+						<div class="more-desc">
+							<h3>How Our Platform Helps</h3>
+						</div>
+						<div class="description-3">
+							<p>
+								We source business information and data from official government
+								authorities responsible for business creation i.e company
+								registries in Africa; we access company legal identity,
+								ownerships and Directorships. This can come inform of company
+								information Data or company documents or registry extracts. The
+								credit ratings assigned on businesses and monitoring solutions
+								on the platform will help finance/credit experts manage risk and
+								grow profitably. With our additional data like financials
+								accounts, we can be able to access financial risks. Our business
+								scoring models and analytics will enable you make informed
+								decisions.
+							</p>
+							<p>
+								Finance\credit expert’s will receive alerts on any changes
+								within their portfolios indicating any adverse or positive
+								changes on the businesses they are monitoring.
+							</p>
+							<p>
+								On Sales & Marketing Management, get indispensable data and
+								analytics that let you target, nurture and close prospects and
+								customers more effectively than ever.
+							</p>
+							<p>
+								Supply chain risk management can be a complex terrain to
+								navigate, our platform will therefore provide critical insights
+								& easy way to understand intelligence to control supply chain
+								risk and avoid disruptions.
+							</p>
+						</div>
 					</div>
-					<div class="description-1">
-						<p>
-							We gather topnotch intelligence to help you onboard third-parties
-						</p>
-					</div>
-					<div class="details-img">
-						<img
-							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396925/service-details_pr8p8h.png"
-							alt="service-details-img"
-						/>
-					</div>
-					<!-- <div class="description-2">
-						<p>
-							Company information and Business intelligence, due diligence and
-							compliance risks, Backgrounds checks and investigative research is
-							our Core Business.
-						</p>
-					</div> -->
-					<div class="description-3">
-						<p>
-							We go into deeper research of corporates and individuals to bring
-							you a richer perspective and dimensional view of your third-party
-							dealings. We gather intelligence to help you onboard customers,
-							vendors, suppliers and third-parties. Our insights involve highest
-							investigation capabilities combined with human source intelligence
-							(HUMINT) and Open-Source Intelligence (OSINT). While HUMINT
-							involves direct human contact views OSINT focus screening of local
-							media languages search and any database checks available in
-							governmental institutions. We try as much as possible to create a
-							most suitable Due diligence program suited for your organization
-							for compliance programs and third party due diligence. Companies
-							are run by the people, we too understand this by getting you a
-							deeper background screening and checks of these individuals from
-							their reputations to local associated entities and across Africa
-							continent.
-						</p>
+					<div class="product-tab" id="p2" style="display: none">
+						<div class="right-title">
+							<span>Due Diligence Services</span>
+						</div>
+						<div class="description-1">
+							<p>
+								We gather topnotch intelligence to help you onboard
+								third-parties
+							</p>
+						</div>
+						<div class="details-img">
+							<img
+								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396925/service-details_pr8p8h.png"
+								alt="service-details-img"
+							/>
+						</div>
+						<div class="description-3">
+							<p>
+								We go into deeper research of corporates and individuals to
+								bring you a richer perspective and dimensional view of your
+								third-party dealings. We gather intelligence to help you onboard
+								customers, vendors, suppliers and third-parties. Our insights
+								involve highest investigation capabilities combined with human
+								source intelligence (HUMINT) and Open-Source Intelligence
+								(OSINT). While HUMINT involves direct human contact views OSINT
+								focus screening of local media languages search and any database
+								checks available in governmental institutions.
+							</p>
+						</div>
+						<div class="description-3">
+							<p>
+								We try as much as possible to create a most suitable Due
+								diligence program suited for your organization for compliance
+								programs and third party due diligence.
+							</p>
+						</div>
+						<div class="description-3">
+							<p>
+								Companies are run by the people, we too understand this by
+								getting you a deeper background screening and checks of these
+								individuals from their reputations to local associated entities
+								and across Africa continent.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -145,7 +249,7 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="about.html">About Us</a></li>
 						<li><a href="coverage.html">Our Coverage</a></li>
-						<li><a href="services.html">Services</a></li>
+						<li><a href="products.html">Solution</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="contact.html">Contact Us</a></li>
 					</ul>

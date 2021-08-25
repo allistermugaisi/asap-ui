@@ -18,11 +18,17 @@
 				<div class="navbar">
 					<i class="bx bx-menu"></i>
 					<div class="logo">
-						<img src="./images/AsapInfo.Logo.png" alt="logo" />
+						<img
+							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396911/AsapInfo.Logo_gpldei.png"
+							alt="logo"
+						/>
 					</div>
 					<div class="nav-links">
 						<div class="sidebar-logo">
-							<img src="./images/AsapInfo.Logo.png" alt="logo" />
+							<img
+								src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396911/AsapInfo.Logo_gpldei.png"
+								alt="logo"
+							/>
 							<i class="bx bx-x"></i>
 						</div>
 						<ul class="links">
@@ -34,17 +40,39 @@
 								<a href="coverage.html">Our Coverage</a>
 							</li>
 							<li>
-								<a href="services.html">Services</a>
+								<a href="#">Solution</a>
 								<i class="bx bxs-chevron-down htmlcss-arrow arrow"></i>
 								<ul class="htmlCss-sub-menu sub-menu">
-									<li><a href="#">Business Intelligence</a></li>
-									<li><a href="#">Data Analytic</a></li>
-									<li><a href="#">Due Diligence</a></li>
-									<li><a href="#">Risk Management</a></li>
-									<li><a href="#">Screen & Background Checks</a></li>
+									<li class="more">
+										<a href="products.html">Products</a>
+										<span>
+											<i class="bx bxs-chevron-right arrow more-arrow"></i>
+										</span>
+										<ul class="more-sub-menu sub-menu">
+											<li>
+												<a href="#">Asap Intell MSME platform</a>
+											</li>
+											<li>
+												<a href="#">Asap market intel platform</a>
+											</li>
+										</ul>
+									</li>
+									<li class="more">
+										<a href="services-detail.html">Services</a>
+										<span>
+											<i class="bx bxs-chevron-right arrow more-arrow"></i>
+										</span>
+										<ul class="more-sub-menu sub-menu">
+											<li>
+												<a href="#">Africa Corporate Credit Risk Solutions</a>
+											</li>
+											<li>
+												<a href="#">Due diligence services</a>
+											</li>
+										</ul>
+									</li>
 								</ul>
 							</li>
-							<li><a href="products.html">Products</a></li>
 							<li><a href="blog.html">Blog</a></li>
 							<li><a href="contact.html">Contact Us</a></li>
 						</ul>
@@ -62,8 +90,10 @@
 					</div>
 				</div>
 			</nav>
+			<!-- End of Navbar -->
+
 			<div class="showcase">
-				<h2>Product details</h2>
+				<h2>Our Products</h2>
 				<p>Home / Product details</p>
 			</div>
 		</header>
@@ -72,15 +102,17 @@
 		<section class="service-details">
 			<div class="details-container details-grid">
 				<div class="left-details">
-					<div class="left-title" onclick="productTabs(event,'p1')">
-						<span>Asap intell MSME platform</span>
-						<img src="./images/right-arrow.svg" alt="arrow" />
+					<div class="left-title tablink" onclick="productTabs(event,'p1')">
+						<span>Asap Market Intell platform</span>
+						<img src="./images/right-chevron.svg" alt="arrow" />
 					</div>
-					<div class="left-description" onclick="productTabs(event,'p2')">
-						<p>Asap market intel platform</p>
+					<div class="left-title tablink" onclick="productTabs(event,'p2')">
+						<span>Asap Intell MSME platform</span>
+						<img src="./images/right-chevron.svg" alt="arrow" />
 					</div>
 					<div class="left-download">
 						<p>Download Brochure</p>
+						<img src="./images/download.svg" alt="download" />
 					</div>
 					<div class="left-greetings">
 						<h2>Are You Ready New Project?</h2>
@@ -90,30 +122,56 @@
 					</div>
 				</div>
 				<div class="right-details">
-					<div class="product-tab" id="p1">
+					<div class="desc-banner">
+						<img src="./images/AsapInfo.Logo2.png" alt="logo-2" />
+					</div>
+					<div class="product-tab" id="p1" style="display: block">
 						<div class="right-title">
-							<span>Asap Intel MSME Platform</span>
+							<span>Asap Market Intell Platform</span>
 						</div>
 						<div class="description-1">
 							<p>
-								The <b>MSME</b> sector in Kenya has over the years been
-								recognized for its role in the provision of goods and services,
-								enhancing competition, fostering innovation, generating
-								employment and in effect, alleviation of poverty. MSME
-								contribute <b>28.5</b> percent of the total economy in Kenya.
+								The ASAP Market Intell Research Platform provides actionable
+								insights and customized analysis services on industries within
+								East Africa. We cover a multitude of market facets from
+								macroeconomics, political risk and capital markets. We use
+								global trends to produce a continual, reflexive analysis of
+								local content with a comprehensive analysis of the factors that
+								impact market entry, government policy and investment decisions
+								and work with you to deliver tailor made research products that
+								enables the identification and creation of lucrative business
+								opportunities.
 							</p>
 						</div>
-						<!-- <div class="details-img">
-						<img
-							src="https://res.cloudinary.com/dgisuffs0/image/upload/q_auto/v1627396925/service-details_pr8p8h.png"
-							alt="service-details-img"
-						/>
-						</div> -->
+						<div class="d-newsletter">
+							<div class="newsletter-title">
+								<p>Newsletter</p>
+								<h4>Subscribe To Our ASAP Market Intell Newsletter</h4>
+							</div>
+							<div class="subscribe">
+								<input type="text" placeholder="Email address" />
+								<input type="submit" value="Subscribe" />
+							</div>
+						</div>
+					</div>
+					<div class="product-tab" id="p2" style="display: none">
+						<div class="right-title">
+							<span>Asap Intell MSME platform</span>
+						</div>
+						<div class="description-1">
+							<p>
+								The MSME sector in Kenya has over the years been recognized for
+								its role in the provision of goods and services, enhancing
+								competition, fostering innovation, generating employment and in
+								effect, alleviation of poverty. MSME contribute 28.5 percent of
+								the total economy in Kenya.
+							</p>
+						</div>
 						<div class="description-2">
 							<p>
-								The <b>MSME</b> sector has been identified and prioritized as a
-								key growth driver for achievement of the development blue print
-								for vision 2030.The MSMEs have not fully been exploited their
+								The MSME sector has been identified and prioritized as a key
+								growth driver for achievement of the development blue print for
+								vision 2030.The MSMEs have not fully been exploited their
 								potential due to lack of data information, ASAP Intell MSME
 								PLATFORM will be able to utilize its full capacity by sourcing
 								enough business information, verify and analyze it for better
@@ -131,16 +189,28 @@
 								dynamics and evolving nature of all businesses in the country.
 							</p>
 						</div>
-					</div>
-					<div class="product-tab" id="p2">
-						<div class="right-title">
-							<span>Asap Intel MSME Platform</span>
-						</div>
-						<div class="description-1">
-							<p>
-								effect, alleviation of poverty. MSME contribute
-								<b>28.5</b> percent of the total economy in Kenya.
-							</p>
+						<div class="description-4">
+							<h4 class="title-4">Why Join?</h4>
+							<ul>
+								<li>
+									The MSME will get access to key services from our partners.
+								</li>
+								<li>
+									Access to tools that support informed decision making and
+									improved efficiencies in running your business.
+								</li>
+								<li>
+									Capacity building sessions [forums, workshops/training and
+									exhibitions].
+								</li>
+								<li>Easy Access to Financial Services – credit, insurance.</li>
+								<li>
+									Showcase your business, we’ll assess &amp; highlight your
+									strengths to stakeholders interested in your success such as
+									potential investors, venture capitalists, lenders, business
+									partners, and your extended supply chain.
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
