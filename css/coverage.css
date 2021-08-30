@@ -535,7 +535,6 @@ nav .navbar .links li:hover .js-sub-menu {
 .left-download > p {
 	color: #3e3e3e;
 	font-size: var(--h4-font-size);
-	padding-left: 1rem;
 	font-weight: 600;
 }
 .left-download > img {

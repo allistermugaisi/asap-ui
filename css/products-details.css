@@ -598,7 +598,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	width: 80%;
 }
 .subscribe input[type='submit'] {
-	margin-left: -15%;
+	margin-left: -5.8em;
 	padding: 10px;
 	font-size: 17px;
 	background: #f68c1f;
@@ -858,6 +858,42 @@ nav .navbar .links li:hover .js-sub-menu {
 		font-weight: 600;
 		border-radius: 30px;
 		cursor: pointer;
+	}
+	.showcase-actions {
+		padding: 2rem;
+	}
+	.desc-banner {
+		background: #002791;
+		height: 100%;
+		max-height: 80px;
+		margin-bottom: 3rem;
+	}
+	.desc-banner img {
+		width: 60%;
+		height: 50%;
+	}
+	.right-details {
+		min-height: 1200px;
+	}
+	.subscribe input[type='text'] {
+		padding: 10px;
+		font-size: 17px;
+		border: 0;
+		border-top-left-radius: 2px;
+		border-bottom-left-radius: 2px;
+		width: 100%;
+	}
+	.subscribe input[type='submit'] {
+		margin: 0 auto;
+		padding: 10px;
+		font-size: 17px;
+		background: #f68c1f;
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+		width: 100%;
+		color: white;
+		border: 0;
+		-webkit-appearance: none;
 	}
 	.footer-links ul {
 		display: flex;
