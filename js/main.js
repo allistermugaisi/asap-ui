@@ -253,6 +253,11 @@ const countries = [
 		São Tomé and Príncipe Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.
 		São Tomé and Príncipe Company Profile Search, São Tomé and Príncipe Credit reports, São Tomé and Príncipe Due diligence services, São Tomé and Príncipe Litigation search/checks, São Tomé and Príncipe Property search/checks, São Tomé and Príncipe court records search, São Tomé and Príncipe  Adverse media search, São Tomé and Príncipe compliance checks, São Tomé and Príncipe Business and market intelligence, São Tomé and Príncipe Risk intelligence data, São Tomé and Príncipe Third-party enhanced due diligence, São Tomé and Príncipe Investigative services.`,
 	},
+	{
+		id: 36,
+		name: `Kenya`,
+		content: `We are Africa EXPERTS in our services, we do have extensive networks of operations & credible sources to work with in various Regions & Countries. Below are the services we can be able to offer in Kenya. Kenya company registry documents- Registry exrtacts, annual returns certificate of incorporation. Kenya Business information reports- company name &amp; registration Number, legal status, Registered address, shareholdings &amp; directorships. Kenya Credit reports, Kenya Due diligence services, Kenya Litigation search/checks, Kenya Property search/checks, Kenya court records search, Kenya Adverse media search, Kenya compliance checks, Kenya Directorships Checks/search, Kenya Shareholdings Checks/search, Kenya Business and market intelligence, Kenya Risk intelligence data, Kenya Third-party enhanced due diligence, Kenya Investigative services.`,
+	},
 ];
 
 const printArea = document.querySelector('#content');

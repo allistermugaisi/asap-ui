@@ -417,7 +417,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	overflow-wrap: break-word;
 }
 .showcase-description > p {
-	font-size: var(--h2-font-size);
+	font-size: var(--h3-font-size);
 }
 .showcase-actions {
 	margin-top: 1rem;
@@ -683,7 +683,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .product-title > h2 {
 	font-size: var(--h1-font-size);
 	color: #002791;
-	font-weight: 600;
+	font-weight: 700;
 }
 .product-title-1::after {
 	content: '';

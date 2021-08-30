@@ -529,13 +529,18 @@ nav .navbar .links li:hover .js-sub-menu {
 .left-download {
 	margin-top: 1rem;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 }
 .left-download > p {
 	color: #3e3e3e;
 	font-size: var(--h4-font-size);
+	padding-left: 1rem;
 	font-weight: 600;
+}
+.left-download > img {
+	width: 28px;
+	height: 30%;
 }
 .left-greetings {
 	background: #002791;
