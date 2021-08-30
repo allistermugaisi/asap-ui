@@ -7,113 +7,30 @@
 }
 /*===== VARIABLES CSS =====*/
 :root {
-	--header-height: 3rem;
+	--colorPrimaryDark: #0b132b;
+	--colorPrimaryLight: #494f61;
+	--colorPlaceholder: #9b9fa8;
+	--colorBackground: #eeeff0;
+	--colorBorder: #cdcfd3;
+	--colorAccent: #003bde;
+	--gutter: 0 16px;
+	--border: 1.5px solid var(--colorBorder);
+	--radius: 3px;
 
-	/*========== Colors ==========*/
-	--first-color: #00db1a;
-	--first-color-alt: #00db1a;
-	--background-icon-color: #c3f6c3;
-	--icon-color: #00db1a;
-	--title-color: #393939;
-	--text-color: rgb(33, 43, 54);
-	--nav-text-color: #ffffff;
-	--text-color-light: #a6a6a6;
-	--body-color: #fbfefd;
-	--container-color: #ffffff;
-	--padding-about: 1rem;
-	--margin-about: 6rem;
-	--padding-about-1: 3rem;
-	--min-height: 75vh;
-
-	/*========== Font and typography ==========*/
-	--body-font: 'Poppins', sans-serif;
-	--biggest-font-size: 2.25rem;
-	--h1-font-size: 1.5rem;
-	--h2-font-size: 1.25rem;
-	--h3-font-size: 1rem;
-	--h4-font-size: 0.985rem;
-	--normal-font-size: 0.938rem;
-	--small-font-size: 0.813rem;
-	--smaller-font-size: 0.75rem;
-
-	/*========== Font weight ==========*/
-	--font-medium: 500;
-	--font-semi-bold: 600;
-
-	/*========== Margins ==========*/
-	--mb-1: 0.5rem;
-	--mb-2: 1rem;
-	--mb-3: 1.5rem;
-	--mb-4: 2rem;
-	--mb-5: 2.5rem;
-	--mb-6: 3rem;
-
-	/*========== z index ==========*/
-	--z-tooltip: 99;
-	--z-fixed: 100;
-}
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-@media (min-width: 1025px) and (max-width: 1280px) {
-	:root {
-		--biggest-font-size: 3rem;
-		--h1-font-size: 2.25rem;
-		--h2-font-size: 1.5rem;
-		--h3-font-size: 1.25rem;
-		--h4-font-size: 1.15rem;
-		--normal-font-size: 1rem;
-		--small-font-size: 0.875rem;
-		--smaller-font-size: 0.813rem;
-		--padding-about: 2rem;
-		--margin-about: 6.5rem;
-		--padding-about-1: 4.5rem;
-		--min-height: 65vh;
-	}
+	--biggest-font-size: 3rem;
+	--h1-font-size: 2.25rem;
+	--h2-font-size: 1.5rem;
+	--h3-font-size: 1.25rem;
+	--h4-font-size: 1.15rem;
+	--normal-font-size: 1rem;
+	--small-font-size: 0.875rem;
+	--smaller-font-size: 0.813rem;
+	--padding-about: 2rem;
+	--margin-about: 6.5rem;
+	--padding-about-1: 4.5rem;
+	--min-height: 70vh;
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-@media screen and (min-width: 768px) {
-	:root {
-		--biggest-font-size: 3rem;
-		--h1-font-size: 2.25rem;
-		--h2-font-size: 1.5rem;
-		--h3-font-size: 1.25rem;
-		--h4-font-size: 1.15rem;
-		--normal-font-size: 1rem;
-		--small-font-size: 0.875rem;
-		--smaller-font-size: 0.813rem;
-		--padding-about: 2rem;
-		--margin-about: 6.5rem;
-		--padding-about-1: 4.5rem;
-		--min-height: 70vh;
-	}
-}
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-}
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
-}
-@media (min-width: 992px) {
-	.container {
-		width: 970px;
-	}
-}
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
-}
 ul {
 	list-style-type: none;
 }
@@ -527,57 +444,86 @@ nav .navbar .links li:hover .js-sub-menu {
 	font-weight: 600;
 	color: #fff;
 }
-.searchable {
+
+/* Input styling */
+
+.input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: var(--border);
+	border-radius: var(--radius);
+	height: 46px;
 	width: 100%;
+	padding: var(--gutter);
+	background-color: white;
 }
 
-.searchable input {
-	width: 100%;
-	height: 50px;
-	font-size: 18px;
-	padding: 10px;
-	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box; /* Firefox, other Gecko */
-	box-sizing: border-box; /* Opera/IE 8+ */
-	display: block;
-	font-weight: 400;
-	line-height: 1.6;
-	color: #495057;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 1px solid #ced4da;
-	border-radius: 0.25rem;
-	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
-		no-repeat right 0.75rem center/8px 10px;
-}
-.searchable input:focus {
-	outline: none;
-}
-.searchable ul {
-	display: none;
-	list-style-type: none;
-	background-color: #fff;
-	border-radius: 0 0 5px 5px;
-	border: 1px solid #add8e6;
-	border-top: none;
-	max-height: 180px;
-	margin: 0;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	padding: 0;
+.input__active {
+	border-color: var(--colorAccent);
+	border-bottom-left-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
 }
 
-.searchable ul li {
-	padding: 7px 9px;
-	border-bottom: 1px solid #e1e1e1;
+.input__placeholder {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input:hover {
 	cursor: pointer;
-	color: #6e6e6e;
 }
 
-.searchable ul li.selected {
-	background-color: #e8e8e8;
-	color: #333;
+.placeholder {
+	color: var(--colorPlaceholder);
+}
+
+.input__selected {
+	color: var(--colorPrimaryDark);
+}
+
+/* Dropdown styling */
+
+.structure {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 300px;
+	width: 100%;
+	overflow: scroll;
+	background-color: white;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+	padding: 10px 0;
+}
+
+.structure > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 16px;
+}
+
+.structure > div:hover {
+	background-color: var(--colorAccent);
+	color: white;
+	cursor: pointer;
+}
+
+.structure > div > h5 {
+	font-weight: 600;
+	margin-right: 4px;
+}
+
+.structure > div > p {
+	font-weight: 400;
+	font-size: 13px;
+	color: var(--colorPlaceholder);
+}
+
+.hide {
+	display: none;
 }
 
 .left-download {

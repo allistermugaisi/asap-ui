@@ -1,14 +1,14 @@
 // search-box open close js code
 let navbar = document.querySelector('.navbar');
-let searchBox = document.querySelector('.search-box .bx-search');
-// let searchBoxCancel = document.querySelector(".search-box .bx-x");
+let searchIconBox = document.querySelector('.search-box .bx-search');
+// let searchIconBoxCancel = document.querySelector(".search-box .bx-x");
 
-searchBox.addEventListener('click', () => {
+searchIconBox.addEventListener('click', () => {
 	navbar.classList.toggle('showInput');
 	if (navbar.classList.contains('showInput')) {
-		searchBox.classList.replace('bx-search', 'bx-x');
+		searchIconBox.classList.replace('bx-search', 'bx-x');
 	} else {
-		searchBox.classList.replace('bx-x', 'bx-search');
+		searchIconBox.classList.replace('bx-x', 'bx-search');
 	}
 });
 
@@ -68,7 +68,7 @@ function myFunction(x) {
 
 let x = window.matchMedia('(max-width: 576px)');
 myFunction(x); // Call listener function at run time
-x.addEventListener('load', myFunction); // Attach listener function on state changes
+x.addEventListener('DOMContentLoaded', myFunction); // Attach listener function on state changes
 
 // Product tabs
 function productTabs(event, tabName) {
