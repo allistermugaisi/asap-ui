@@ -87,3 +87,5 @@ function productTabs(event, tabName) {
 	document.getElementById(tabName).style.display = 'block';
 	evt.currentTarget.className += ' tab-bg';
 }
+
+let id = window.location.toString().split('#')[1];
