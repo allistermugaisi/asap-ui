@@ -582,6 +582,58 @@ nav .navbar .links li:hover .js-sub-menu {
 	font-weight: 600;
 	color: #3e3e3e;
 }
+/* Accordion css */
+.accordion {
+	background-color: #fff;
+	color: #3E3E3E;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+  }
+  .active, .accordion:hover {
+	background-color: #F68C1F;
+	color: #fff;
+  }
+  .accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  .active:after {
+	content: "\2212";
+  }
+  .panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+  }
+  .panel ul li {
+	padding: .5rem;
+	color: #3E3E3E;
+	cursor: pointer;
+  }
+  .panel ul li:hover {
+	padding: .5rem;
+	color: #f68c1f;
+	cursor: pointer;
+  }
+  .panel ul li::before {
+	content: '\2022';
+	color: #f68c1f;
+	font-weight: 800;
+	display: inline-block;
+	width: 1.5em;
+	margin-left: -1em;
+}
 .left-download {
 	margin-top: 1rem;
 	display: flex;

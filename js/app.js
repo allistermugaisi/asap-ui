@@ -89,3 +89,4 @@ function productTabs(event, tabName) {
 }
 
 let id = window.location.toString().split('#')[1];
+
