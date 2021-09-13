@@ -440,6 +440,10 @@ nav .navbar .links li:hover .js-sub-menu {
 	cursor: pointer;
 	transition: 0.2s ease;
 }
+.showcase .button a{
+	text-decoration: none;
+	color: #fff;
+}
 .showcase .button:hover {
 	background-color: #f68c1f;
 	border: 2px solid #f68c1f;
@@ -455,9 +459,9 @@ nav .navbar .links li:hover .js-sub-menu {
 	transition: 0.2s ease;
 }
 .showcase .button-1 {
-	background-color: #fff;
-	border: 2px solid #fff;
-	color: #f68c1f;
+	background-color: #f68c1f;
+	border: 2px solid #f68c1f;
+	color: #fff;
 	padding: 15px 32px;
 	text-align: center;
 	text-decoration: none;
