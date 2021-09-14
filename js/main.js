@@ -23,7 +23,7 @@ const countries = [
 	{
 		id: 2,
 		name: 'Tanzania',
-		content: `Tanzania company registry documents- Registry extracts, annual returns certificate of incorporation.
+		content: `Tanzania company registry documents- Registry extracts, annual returns certificate of incorporation.\
 		Tanzania Business information reports- company name & registration Number, legal status, Registered address, shareholdings & directorships.
 		Tanzania Credit reports, Tanzania Due diligence services, Tanzania Litigation search/checks, Tanzania Property search/checks, Tanzania court records search, Tanzania Adverse media search, Tanzania compliance checks, Tanzania Directorships Checks/search, Tanzania Shareholdings Checks/search., Tanzania Business and market intelligence, Tanzania Risk intelligence data, Tanzania Third-party enhanced due diligence, Tanzania Investigative services.`,
 	},

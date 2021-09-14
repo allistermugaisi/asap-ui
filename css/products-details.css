@@ -212,7 +212,7 @@ nav .navbar .links li .sub-menu {
 	top: 60px;
 	left: 0;
 	line-height: 40px;
-	background: #fff;
+	background: #002791;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 	border-radius: 0 0 4px 4px;
 	display: none;
@@ -227,7 +227,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .navbar .links li .sub-menu a {
-	color: #002791;
+	color: #fff;
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -481,7 +481,6 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 /* End of Navbar */
 
-
 /* Showcase service */
 .showcase {
 	display: flex;
@@ -636,7 +635,7 @@ nav .navbar .links li:hover .js-sub-menu {
 /* Accordion css */
 .accordion {
 	background-color: #fff;
-	color: #3E3E3E;
+	color: #3e3e3e;
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
@@ -645,39 +644,40 @@ nav .navbar .links li:hover .js-sub-menu {
 	outline: none;
 	font-size: 15px;
 	transition: 0.4s;
-  }
-  .active, .accordion:hover {
-	background-color: #F68C1F;
+}
+.active,
+.accordion:hover {
+	background-color: #f68c1f;
 	color: #fff;
-  }
-  .accordion:after {
+}
+.accordion:after {
 	content: '\002B';
 	color: #777;
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
-  }
-  .active:after {
-	content: "\2212";
-  }
-  .panel {
+}
+.active:after {
+	content: '\2212';
+}
+.panel {
 	padding: 0 18px;
 	background-color: white;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-  }
-  .panel ul li {
-	padding: .5rem;
-	color: #3E3E3E;
+}
+.panel ul li {
+	padding: 0.5rem;
+	color: #3e3e3e;
 	cursor: pointer;
-  }
-  .panel ul li:hover {
-	padding: .5rem;
+}
+.panel ul li:hover {
+	padding: 0.5rem;
 	color: #f68c1f;
 	cursor: pointer;
-  }
-  .panel ul li::before {
+}
+.panel ul li::before {
 	content: '\2022';
 	color: #f68c1f;
 	font-weight: 800;
