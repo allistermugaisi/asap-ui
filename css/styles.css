@@ -405,11 +405,11 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .showcase-header {
 	color: #f8f9fa;
-	max-width: 42%;
+	max-width: 52%;
 	overflow-wrap: break-word;
 }
 .showcase-header h2 {
-	font-size: var(--h2-font-size);
+	font-size: var(--h1-font-size);
 	font-weight: 600;
 }
 .showcase-description {
@@ -419,7 +419,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	overflow-wrap: break-word;
 }
 .showcase-description > p {
-	font-size: var(--h4-font-size);
+	font-size: var(--h3-font-size);
 }
 .showcase-actions {
 	margin-top: 1rem;
@@ -440,7 +440,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	cursor: pointer;
 	transition: 0.2s ease;
 }
-.showcase .button a{
+.showcase .button a {
 	text-decoration: none;
 	color: #fff;
 }
@@ -543,7 +543,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	grid-template-columns: repeat(2, 1fr);
 	gap: 4rem;
 }
-.content-2{
+.content-2 {
 	text-align: center;
 	margin: 0 auto;
 	width: 50%;
@@ -750,7 +750,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .product-card > h3 {
 	font-size: var(--h2-font-size);
-	color: #3E3E3E;
+	color: #3e3e3e;
 	margin-top: 2rem;
 	font-weight: 600;
 }
@@ -1044,7 +1044,6 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .started-left {
 	margin: 0 auto;
-
 }
 .started-left img {
 	width: 533px;
