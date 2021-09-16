@@ -331,7 +331,9 @@ const toggleDropdown = () => {
 
 const selectOption = (name) => {
 	const text = document.querySelector('.placeholder');
+	const country = document.querySelector('#country');
 	text.textContent = name;
+	country.textContent = name;
 	text.classList.add('input__selected');
 	toggleDropdown();
 };
@@ -339,6 +341,7 @@ const selectOption = (name) => {
 const selectContentOption = (content) => {
 	const text = document.querySelector('#content-info');
 	text.innerHTML = content;
+
 	// text.classList.add('input__selected');
 	// toggleDropdown();
 };
