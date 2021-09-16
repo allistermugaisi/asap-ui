@@ -302,9 +302,11 @@ const showDropdown = () => {
 	countries.forEach((country) => {
 		const { id, name, content } = country;
 		const option = document.createElement('div');
+
 		option.addEventListener('click', () => selectOption(name));
 		option.addEventListener('click', () => selectContentOption(content));
 		option.setAttribute('id', id);
+		option.setAttribute('class', 'options');
 
 		const n = document.createElement('h5');
 		n.textContent = name;
@@ -342,3 +344,21 @@ const selectContentOption = (content) => {
 };
 
 dropdown();
+
+// Select Kenya on page load as default selected value
+let options = document.querySelectorAll('.options'),
+	name = 'Kenya',
+	contentSelected =
+		'We are Africa EXPERTS in our services, we do have extensive networks of operations & credible sources to work with in various Regions & Countries. Below \nare the services we can be able to offer in Kenya. Kenya company registry documents- Registry exrtacts, annual returns certificate of incorporation. Kenya Business information reports- company name &amp; registration Number, legal status, Registered address, shareholdings &amp; directorships. Kenya Credit reports, Kenya Due diligence services, Kenya Litigation search/checks, Kenya Property search/checks, Kenya court records search, Kenya Adverse media search, Kenya compliance checks, Kenya Directorships Checks/search, Kenya Shareholdings Checks/search, Kenya Business and market intelligence, Kenya Risk intelligence data, Kenya Third-party enhanced due diligence, Kenya Investigative services.';
+
+// console.log(options[0].childNodes[0].textContent);
+// console.log(options);
+
+for (i = 0; i < options.length; i++) {
+	if (options[i].textContent.indexOf(name) > -1) {
+		selectOption(name);
+		selectContentOption(contentSelected);
+		toggleDropdown();
+		break;
+	}
+}
