@@ -541,7 +541,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .tab-bg {
 	position: relative;
 	padding: 1rem;
-	background-color: #f68c1f;
+	color: #f68c1f;
 }
 .tab-bg > span {
 	font-size: var(--h4-font-size);
@@ -555,7 +555,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	top: 18px;
 }
 .tab-bg:hover {
-	background-color: #f68c1f;
+	color: #f68c1f;
 }
 .more-desc {
 	padding: 1rem 0;
