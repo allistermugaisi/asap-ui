@@ -537,12 +537,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	right: 15px;
 	top: 18px;
 }
-/* Active tabs on click */
-.tab-bg {
-	position: relative;
-	padding: 1rem;
-	color: #f68c1f;
-}
+
 .tab-bg > span {
 	font-size: var(--h4-font-size);
 	color: #fff;
@@ -553,9 +548,6 @@ nav .navbar .links li:hover .js-sub-menu {
 	position: absolute;
 	right: 15px;
 	top: 18px;
-}
-.tab-bg:hover {
-	color: #f68c1f;
 }
 .more-desc {
 	padding: 1rem 0;
@@ -621,11 +613,23 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #3e3e3e;
 	cursor: pointer;
 }
-.panel ul li:hover {
+.panel ul li.tab-bg {
 	padding: 0.5rem;
 	color: #f68c1f;
 	cursor: pointer;
 }
+
+/* .panel ul li:hover {
+	padding: 0.5rem;
+	color: #f68c1f;
+	cursor: pointer;
+} */
+/* Active tabs on click */
+/* .tab-bg {
+	position: relative;
+	padding: 1rem;
+	color: #f68c1f;
+} */
 .panel ul li::before {
 	content: '\2022';
 	color: #f68c1f;

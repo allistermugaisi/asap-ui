@@ -88,4 +88,30 @@ function productTabs(event, tabName) {
 	evt.currentTarget.className += ' tab-bg';
 }
 
-let id = window.location.toString().split('#')[1];
+function getParameterByName(name, url = window.location.href) {
+	name = name.replace(/[\[\]]/g, '\\$&');
+	var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+		results = regex.exec(url);
+	if (!results) return null;
+	if (!results[2]) return '';
+	return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+const activeTab = getParameterByName('tab');
+
+pageLoadTabs(activeTab);
+
+function pageLoadTabs(tabName) {
+	let i, x, tablinks;
+	x = document.getElementsByClassName('product-tab');
+
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = 'none';
+	}
+
+	tablinks = document.getElementsByClassName('tablink');
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace('tab-bg', '');
+	}
+	document.getElementById(tabName).style.display = 'block';
+}
