@@ -550,11 +550,11 @@ nav .navbar .links li:hover .js-sub-menu {
 	top: 18px;
 }
 .more-desc {
-	padding: 1rem 0;
+	padding: 0.2rem 0;
 }
 .more-desc h3 {
 	color: #002791;
-	font-size: var(--h1-font-size);
+	font-size: var(--h2-font-size);
 	font-weight: 500;
 }
 .left-description {
@@ -631,6 +631,22 @@ nav .navbar .links li:hover .js-sub-menu {
 	color: #f68c1f;
 } */
 .panel ul li::before {
+	content: '\2022';
+	color: #f68c1f;
+	font-weight: 800;
+	display: inline-block;
+	width: 1.5em;
+	margin-left: -1em;
+}
+.supply {
+	margin: 0 4rem;
+}
+.supply ul li {
+	padding: 0.1rem;
+	color: #3e3e3e;
+	font-size: var(--h4-font-size);
+}
+.supply ul li::before {
 	content: '\2022';
 	color: #f68c1f;
 	font-weight: 800;
