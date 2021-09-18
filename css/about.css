@@ -864,11 +864,12 @@ nav .navbar .links li:hover .js-sub-menu {
 	height: 21px;
 	cursor: pointer;
 }
+
 /* Footer section */
 .footer-container {
 	background: #002791;
 	max-width: 100%;
-	min-height: 400px;
+	min-height: 450px;
 	width: 100%;
 	padding: 2rem;
 }
@@ -882,7 +883,7 @@ nav .navbar .links li:hover .js-sub-menu {
 	object-fit: cover;
 }
 
-.footer-links ul {
+.footer-links .links {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -890,13 +891,51 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 .footer-links ul li {
 	padding: 0 1rem;
+	position: relative;
 }
 .footer-links ul li a {
 	color: #fff;
 	transition: 0.5s ease;
 }
+.footer-links ul li i {
+	color: #fff;
+	transition: 0.5s ease;
+}
+.footer-links ul li:hover .htmlcss-arrow,
+.footer-links ul li:hover .js-arrow {
+	transform: rotate(180deg);
+}
 .footer-links ul li a:hover {
 	color: #f68c1f;
+}
+.footer-links ul li .sub-menu {
+	position: absolute;
+	padding-top: 10px;
+	left: 0;
+	white-space: nowrap;
+	line-height: 40px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 4px 4px;
+	display: none;
+	z-index: 2;
+}
+.footer-links li:hover .htmlCss-sub-menu {
+	display: block;
+}
+.footer-links ul li .sub-menu .more-sub-menu {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	border-radius: 0 4px 4px 4px;
+	background-color: #fff;
+	z-index: 1;
+	display: none;
+}
+.sub-menu a.active {
+	color: #002791;
+	font-size: 15px;
+	font-weight: 500;
 }
 .footer-icons {
 	display: flex;
@@ -922,7 +961,6 @@ nav .navbar .links li:hover .js-sub-menu {
 .footer-copyright p:nth-child(3) {
 	color: #f68c1f;
 }
-
 /* Media Queries */
 @media screen and (max-width: 576px) {
 	.navbar .logo img,
